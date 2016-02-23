@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pizza Order</string>
+    <string name="pleaseOrder">Please place the size of your pizza:</string>
+</resources>
