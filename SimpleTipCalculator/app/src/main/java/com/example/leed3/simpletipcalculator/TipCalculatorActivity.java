@@ -104,11 +104,15 @@ public class TipCalculatorActivity extends AppCompatActivity {
         Button round = (Button) findViewById(R.id.round);
         Button reset = (Button) findViewById(R.id.reset);
 
-        round.setOnClickListener(new View.OnClickListener() {
+        /*round.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 calculate();
             }
-        });
+        }); */
+
+        round.setOnClickListener((v) -> {
+                    calculate();
+                });
 
         reset.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

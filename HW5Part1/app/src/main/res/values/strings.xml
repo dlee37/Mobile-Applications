@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HW5Part1</string>
+    <string name="noNetworkError">Network not available</string>
+    <string name="unknown">Unknown;Unknown</string>
+</resources>
